@@ -12,3 +12,11 @@ ama.style.color = "pink";
 ama.style.justifyContent = "center";
 ama.style.fontSize = "50px";
 ama.style.marginTop = "0px";
+
+const Link = [
+  {
+    url: "images/bana1.jpg",
+  },
+];
+let image = document.querySelector("img");
+image.textContent = "Link.url";
