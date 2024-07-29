@@ -1,7 +1,3 @@
-alert(
-  "This are for you but i dont which one you will like so, and also so sorry it came in late"
-);
-
 let body = document.querySelector("body");
 body.style.margin = "0px";
 body.style.padding = "0px";
@@ -11,16 +7,10 @@ body.style.flexDirection = "Column";
 body.style.alignItems = "center";
 body.style.overflowX = "hidden";
 
-// body.style.display = "flex";
-// div.style.justifyContent = "space-between";
-
 let div = document.querySelector("div");
-// div.style.display = "gird";
-// div.style.gridTemplateColumns = "100px 100px 100px";
 div.style.gap = "50px";
 div.style.textAlign = "center";
 body.style.padding = "0px 10px 0px 10px";
-// div.style.margin = "0px 50px 0px 50px";
 div.style.overflow = "hidden";
 
 let ama = document.querySelector("h1");
@@ -31,6 +21,12 @@ ama.style.justifyContent = "center";
 ama.style.fontSize = "20px";
 ama.style.marginTop = "0px";
 ama.style.marginBottom = "6px";
+
+let heading = document.createElement("h2");
+heading.textContent =
+  "This are for you but i dont know which one you will like so i Baked alot of it, and also so sorry it came in late";
+heading.style.alignContent = "top";
+document.querySelector("body").appendChild(heading);
 
 let container = document.createElement("a");
 container.href = " https://wa.me/+2348150672809";
