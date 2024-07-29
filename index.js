@@ -35,9 +35,10 @@ ama.style.marginBottom = "6px";
 let container = document.createElement("a");
 container.href = " https://wa.me/+2348150672809";
 container.textContent =
-  "Contact for delivery Thank you patronizing Click : [+2348150672809]";
+  "Contact for delivery Thank you for patronizing Click : [+2348150672809]";
 container.style.display = "flex";
 container.style.justifyContent = "center";
+container.style.textDecoration = "none";
 container.style.borderRadius = "3px 3px 8px 8px";
 container.style.fontStyle = "";
 container.style.padding = "0px 5px 0px 5px";
