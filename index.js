@@ -14,7 +14,7 @@ body.style.padding = "0px 10px 0px 10px";
 div.style.overflow = "hidden";
 
 let ama = document.querySelector("h1");
-ama.textContent = "Chiamaka Night Food";
+ama.textContent = "Chiamaka Night Snacks";
 ama.style.display = "flex";
 ama.style.color = "pink";
 ama.style.justifyContent = "center";
@@ -22,11 +22,12 @@ ama.style.fontSize = "20px";
 ama.style.marginTop = "0px";
 ama.style.marginBottom = "6px";
 
-let heading = document.createElement("h2");
+let heading = document.querySelector("h2");
 heading.textContent =
-  "This are for you but i dont know which one you will like so i Baked alot of it, and also so sorry it came in late";
-heading.style.alignContent = "top";
-document.querySelector("body").appendChild(heading);
+  "This are for you but i dont know which one you will like so i Baked alot of it, and also am sorry it came in late";
+heading.style.margin = "8px 0px 8px 0px";
+heading.style.background = "";
+// document.querySelector("body").appendChild(heading);
 
 let container = document.createElement("a");
 container.href = " https://wa.me/+2348150672809";
