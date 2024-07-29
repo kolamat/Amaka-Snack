@@ -31,9 +31,8 @@ ama.style.marginTop = "0px";
 ama.style.marginBottom = "6px";
 
 let container = document.createElement("a");
-container.href =
-  "Contact for delivery https://wa.me/[+2348150672809] Thank you patronizing";
-container.textContent = "";
+container.href = " https://wa.me/[+2348150672809] ";
+container.textContent = "Contact for delivery Thank you patronizing";
 container.style.display = "flex";
 container.style.justifyContent = "center";
 container.style.fontStyle = "italic";
