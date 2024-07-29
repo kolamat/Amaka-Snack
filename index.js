@@ -10,7 +10,7 @@ body.style.overflowX = "hidden";
 let div = document.querySelector("div");
 div.style.gap = "50px";
 div.style.textAlign = "center";
-body.style.padding = "0px 10px 0px 10px";
+body.style.padding = "0px ";
 div.style.overflow = "hidden";
 
 let ama = document.querySelector("h1");
@@ -26,6 +26,7 @@ let heading = document.querySelector("h2");
 heading.textContent =
   "This are for you but i dont know which one you will like so i Baked alot of it, and also am sorry it came in late";
 heading.style.margin = "8px 0px 8px 0px";
+heading.style.padding = "0px 8px 0px 8px";
 heading.style.background = "";
 // document.querySelector("body").appendChild(heading);
 
@@ -37,7 +38,7 @@ container.style.display = "flex";
 container.style.justifyContent = "center";
 container.style.textDecoration = "none";
 container.style.borderRadius = "3px 3px 8px 8px";
-container.style.fontStyle = "";
+container.style.width = "100%";
 container.style.padding = "0px 5px 0px 5px";
 container.style.textAlign = "center";
 container.style.fontWeight = "bold";
