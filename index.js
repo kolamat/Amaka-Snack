@@ -4,9 +4,11 @@ let body = document.querySelector("body");
 body.style.margin = "0px";
 body.style.padding = "0px";
 body.style.boxSizing = "border-box";
+body.style.display = "grid";
+body.style.alignItems = "center";
 
 let div = document.querySelector("div");
-div.style.display = "grid";
+div.style.display = "flex";
 div.style.gridColumn = "2";
 
 let ama = document.querySelector("h1");
@@ -19,21 +21,21 @@ ama.style.marginTop = "0px";
 
 let image = document.createElement("img");
 image.src = "images/bana1.jpg";
-image.src = "images/bana2.webp";
-image.src = "images/cake1.jpeg";
-image.src = "images/donut1.jpeg";
 image.style.width = "200px";
-document.querySelector("div").appendChild(image);
-
-const image1 = document.createElement("p");
-image1.innerHTML = "This is a image1graph.";
+document.querySelector("body").appendChild(image);
+let image1 = document.createElement("img");
+image1.src = "images/images/bana2.webp";
+image1.style.width = "200px";
 document.querySelector("body").appendChild(image1);
-const image2 = document.createElement("p");
-image2.innerHTML = "This is a image1graph.";
+let image2 = document.createElement("img");
+image2.src = "images/cake1.jpeg";
+image2.style.width = "200px";
 document.querySelector("body").appendChild(image2);
-const image3 = document.createElement("p");
-image3.innerHTML = "This is a image1graph.";
+let image3 = document.createElement("img");
+image3.src = "images/donut1.jpeg";
+image3.style.width = "200px";
 document.querySelector("body").appendChild(image3);
-const image4 = document.createElement("p");
-image4.innerHTML = "This is a image1graph.";
-document.querySelector("body").appendChild(image4);
+
+// const para = document.createElement("p");
+// para.innerHTML = "This is a paragraph.";
+// document.querySelector("body").appendChild(para);
